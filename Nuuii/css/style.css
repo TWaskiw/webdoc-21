@@ -8,6 +8,7 @@ body {
     position: relative;
     z-index: -1;
 }
+
 /* --------------------header sektion start ------------------------- */
 
 .logo {
@@ -29,6 +30,7 @@ body {
 
 
 }
+
 .navigation ul {
     list-style-type: none;
     display: flex;
@@ -60,14 +62,14 @@ body {
     padding-top: 35px;
     font-size: 23px;
     font-family: 'Poppins', sans-serif;
-    
+
 }
 
 .dropdown-content {
     display: none;
     position: absolute;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     padding: 12px 16px;
     z-index: 999;
 }
@@ -94,7 +96,7 @@ body {
     background-image: url(../images/Nuuii-hjul.JPG);
     width: 410px;
     height: 400px;
-    background-size:cover;
+    background-size: cover;
 }
 
 .header-main {
@@ -104,20 +106,19 @@ body {
     margin-bottom: 30px;
 
 }
+
 /* --------------------header sektion slut --------------------------- */
 /* ----------------- Ressourcer sektion start ------------------------ */
 
 .ress-sektion {
     background-image: url(../images/Hero2.jpg);
     width: 100%;
-    height: 800px;
+    height: 100vh;
     background-size: contain;
     background-position: 100%
 }
 
-.ress-hero {
-    
-}
+.ress-hero {}
 
 .ress-tekst {
     display: block;
@@ -130,7 +131,7 @@ body {
     font-family: 'Poppins', sans-serif;
     color: #438C8C;
     font-size: 60px;
-    
+
 }
 
 .ress-h3 {
@@ -142,7 +143,7 @@ body {
 
 .ress-p {
     font-family: 'Poppins', sans-serif;
-    width: 400px; 
+    width: 400px;
     padding-top: 20px;
     font-size: 18px;
 }
@@ -159,14 +160,14 @@ body {
 .prod-sektion {
     background-color: #f5fafd;
     width: 100%;
-    height: 600px;
+    height: 100vh;
     background-size: cover;
 }
 
 .prod-hero {
     height: 600px;
     width: 100%;
-    
+
 }
 
 .prod-tekst {
@@ -178,9 +179,10 @@ body {
     margin-top: 200px;
     color: #438C8C;
 }
+
 .produktionpic {
     width: 80%;
-    height: 750px;
+    bottom: 0;
     object-fit: cover;
     margin-top: -387px;
     margin-left: 100px;
@@ -190,7 +192,7 @@ body {
 /* --------------------Distribution start --------------------------- */
 .distrib-sektion {
     width: 100%;
-    height: 600px;
+    height: 100vh;
     background-color: #f5fafd;
 }
 
@@ -204,10 +206,11 @@ body {
 /* --------------------Brug sektion start --------------------------- */
 .brug-sektion {
     width: 100%;
-    height: 600px;
+    height: 100vh;
     background-color: aqua;
 
 }
+
 /* --------------------footer start --------------------------- */
 footer {
     width: 100%;
@@ -225,7 +228,7 @@ footer {
     display: flex;
     flex-direction: column;
     font-family: 'Poppins', sans-serif;
-    
+
 }
 
 .footer-title {
