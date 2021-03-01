@@ -18,15 +18,19 @@
 <body>
     <div class="navbar">
         <nav class="main-nav">
-            <img class="logo" src="images/Nuuii-Logo-light.png" alt="Nuuii logo">
+           <a href="index.html">
+             <img class="logo" src="images/Nuuii-Logo-light.png" alt="Nuuii logo">
+             </a>
             <div class="navigation">
                 <ul class="nav-list">
                     <li>
                         <a href="#">Shop</a>
                     </li>
-                    <li>
-                        <div class="dropdown">
-                            Om os
+                    <li class="haschildren">
+                      <a href="#">
+                        Om os
+                        </a>
+                        <div class="dropdown"> 
                             <div class="dropdown-content">
                                 <a href="#">Hvem er vi</a>
                                 <a href="#">Danske og europæiske råvarer</a>
@@ -51,6 +55,8 @@
             </div>
         </nav>
     </div>
+   
+    <!-------------- header sektion ------------------------------->    
     <div class="hero-container">
         <div class="header-main">
         <h1 class="head">Vi tænker på miljøet</h1>
@@ -59,11 +65,23 @@
         <div class="hero">
    
         </div>
+        
+         <div class="onepage-nav">
+        <nav class="pagenavigation">
+            <a class="button1" href="#section1">Ressourcer</a>
+            <a href="#section2">Produktion</a>
+            <a href="#section3">Distribution</a>
+            <a href="#section4">Link to section 4</a>
+
+        </nav>
+    </div>
     </div>
     
-    <div class="ress-sektion">
+    
+    <!-------------- ressource sektion ------------------------------->    
+    <div id="section1" class="ress-sektion">
       <div class="ress-tekst">
-      <h1 class="ress-h1">Ressourcer</h1>
+       <h1 class="ress-h1">Ressourcer</h1>
       <h3 class="ress-h3">Hos Nuuii bruger vi kun aktive ingredienser uden vand som alle er miljøvenlige </h3>
       <p class="ress-p">Vores produkter er udviklet uden unødvendige og uigennemskuelige ingredienser og uden allergifremkaldende konserveringsmidler. Vores produkter indeholder ikke noget, du ikke ved hvad er, eller ingredienser, som du skal være utryg ved at bruge i dit hjem, på din hud eller skylle ud i afløbet. Vand tilsættes først hjemme hos dig. De aktive ingredienser i traditionelle rengøringsmidler udgør max. 10%, resten er vand. Men når vi nu er så heldige at bo i et land, hvor vi har adgang til rent vand gennem vandrørene, er der jo ingen grund til at vand tilsættes allerede på fabrikken for herefter at blive kørt rundt på vejene.</p>
        </div>
@@ -71,7 +89,8 @@
             <img class="vandhane" src="images/vandhane.gif" alt="dryppende vandhane">
         </div>
     </div>
-<!------------------ produktion sektion ------------------------------->    <div class="prod-sektion">
+ <!------------------ ressource slut ------------------------------->    
+<!------------------ produktion sektion ------------------------------->    <div id="section2" class="prod-sektion">
     <div class="prod-hero">
       <div class="prod-tekst">
        <h1 class="prodh1">Step 2. Produktion </h1>
@@ -83,7 +102,7 @@
     
 </div>
 <!------------------ Distribution sektion ------------------------------> 
-<div class="distrib-sektion">
+<div id="section3" class="distrib-sektion">
     <div class="distrib-hero">
        <div class="distrib-tekst">
         <h1 class="distribh1">Step 3. Distribution</h1>
@@ -94,7 +113,7 @@
 
 <!------------------ Distribution sektion slut -------------------------> 
 <!------------------ Brug sektion --------------------------------------> 
-<div class="brug-sektion">
+<div id="section4" class="brug-sektion">
     <div class="brug-hero">
         
     </div>
@@ -102,6 +121,7 @@
 
 
 </body>
+<!------------------ footer sektion -----------------------------------> 
 
 <footer>
     <div class="footer-container">
