@@ -92,7 +92,7 @@ body {
 .hero-container {
     background-color: #f5fafd;
     width: 100%;
-    height: 600px;
+    height: 100vh;
     z-index: -1;
     position: relative;
     display: flex;
@@ -134,23 +134,15 @@ body {
     
 }
 
-.cta1 {
-    
-}
-
 /* --------------------header sektion slut --------------------------- */
 /* ----------------- Ressourcer sektion start ------------------------ */
 
 .ress-sektion {
     background-image: url(../images/Hero2.jpg);
     width: 100%;
-    height: 800px;
+    height: 100vh;
     background-size: contain;
     background-position: 100%
-}
-
-.ress-hero {
-    
 }
 
 .ress-tekst {
@@ -176,7 +168,7 @@ body {
 
 .ress-p {
     font-family: 'Poppins', sans-serif;
-    width: 400px; 
+    width: 60%; 
     padding-top: 20px;
     font-size: 18px;
 }
@@ -184,63 +176,110 @@ body {
 .vandhane {
     width: 800px;
     float: right;
-    margin-top: -480px;
+    margin-top: -400px;
 }
 
 /* --------------------ressourcer slut --------------------------- */
 /* --------------------Produktion start --------------------------- */
 
 .prod-sektion {
-    background-color: #f5fafd;
+    background-image: url(../images/produktion.png);
     width: 100%;
-    height: 600px;
+    height: 100vh;
+    background-repeat: no-repeat;
     background-size: cover;
 }
 
-.prod-hero {
-    height: 600px;
-    width: 100%;
-    
-}
 
 .prod-tekst {
+    padding: 5rem 5rem 0 130px;
     font-family: 'Poppins', sans-serif;
-    width: 400px;
     position: absolute;
-    display: block;
-    right: 80px;
-    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
     color: #438C8C;
+    overflow-wrap: break-word;
 }
 .produktionpic {
-    width: 80%;
-    height: 750px;
-    object-fit: cover;
-    margin-top: -387px;
-    margin-left: 100px;
+    bottom: 0;
+}
+
+.prod-p {
+    font-family: 'Poppins', sans-serif; 
+    padding-top: 20px;
+    font-size: 18px;
+    margin-left: 20%;
 }
 
 /* --------------------Produktion slut --------------------------- */
 /* --------------------Distribution start --------------------------- */
 .distrib-sektion {
+    padding: 2rem 0;
     width: 100%;
-    height: 600px;
     background-color: #f5fafd;
+    background-image: url(../images/dis.gif);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-size: 85%;
+    min-height: 100vh;
+}
+
+.distrib-hero {
+    margin-left: 130px;
+padding-top: 25vh;
 }
 
 .distrib-tekst {
+    padding: 30px 0;
     font-family: 'Poppins', sans-serif;
     color: #438C8C;
+}
 
+.distrib-p {
+    font-family: 'Poppins', sans-serif; 
+    font-size: 18px;
+    width: 60%;
+    color: #438c8c;
 }
 
 /* --------------------Distribution slut --------------------------- */
 /* --------------------Brug sektion start --------------------------- */
 .brug-sektion {
     width: 100%;
-    height: 600px;
-    background-color: aqua;
+    height: 100vh;
+    padding: 2.5rem 0;
+}
 
+.brug-hero {
+    display: flex;
+    flex-direction: column;
+    margin-left: 130px;
+    padding-top: 2.5rem;
+}
+
+.brug-h1 {
+    font-family: 'Poppins', sans-serif;
+    color: #438C8C;
+    font-size: 60px;
+}
+
+.slide_text {
+    display: flex;
+    flex-direction: row;
+    padding-top: 5rem;
+}
+
+.brug-p {
+    font-family: 'Poppins', sans-serif; 
+    font-size: 18px;
+    color: #438c8c;
+    width: 50%;
+    padding: 0 5%;
+}
+
+.slider {
+    width: 50%;
 }
 /* --------------------Brug sektion slut --------------------------- */
 
@@ -250,6 +289,34 @@ body {
     width: 100%;
     height: 100vh;
     background-color: beige;
+    display: flex;
+    flex-direction: column;
+}
+
+.bortskaffelse-hero {
+    padding-top: 2.5rem;
+    margin-left: 130px;
+    padding-bottom: 25px;
+}
+
+.bortskaffelse-content {
+    display: flex;
+    flex-direction: row;
+    bottom: 0;
+    width:100%;
+}
+
+.bort-p {
+    font-family: 'Poppins', sans-serif; 
+    font-size: 18px;
+    color: #438c8c;
+    width: 50%;
+    padding-left: 130px;
+}
+
+.plante-gif {
+    height: 80vh;
+    bottom: 0;
 }
 
 /* --------------------footer start --------------------------- */
