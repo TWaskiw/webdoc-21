@@ -144,7 +144,7 @@ body {
 .ress-sektion {
     background-image: url(../images/Hero2.jpg);
     width: 100%;
-    height: 100vh;
+    height: 800px;
     background-size: contain;
     background-position: 100%
 }
@@ -193,7 +193,7 @@ body {
 .prod-sektion {
     background-color: #f5fafd;
     width: 100%;
-    height: 100vh;
+    height: 600px;
     background-size: cover;
 }
 
@@ -224,7 +224,7 @@ body {
 /* --------------------Distribution start --------------------------- */
 .distrib-sektion {
     width: 100%;
-    height: 100vh;
+    height: 600px;
     background-color: #f5fafd;
 }
 
@@ -238,10 +238,20 @@ body {
 /* --------------------Brug sektion start --------------------------- */
 .brug-sektion {
     width: 100%;
-    height: 100vh;
+    height: 600px;
     background-color: aqua;
 
 }
+/* --------------------Brug sektion slut --------------------------- */
+
+/* -------------------Bortskaffelse sektion start -------------------- */
+
+.bortskaffelse-sektion {
+    width: 100%;
+    height: 100vh;
+    background-color: beige;
+}
+
 /* --------------------footer start --------------------------- */
 footer {
     width: 100%;
