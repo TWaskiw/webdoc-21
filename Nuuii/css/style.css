@@ -14,8 +14,8 @@ body {
 
 .pagenavigation a {
     text-decoration: none;
-    
 }
+
 /* --------------------header sektion start ------------------------- */
 
 .logo {
@@ -172,18 +172,26 @@ body {
 
 #recycle { 
     padding: 15px 17px 15px 17px;
-
 }
 
-#popup {
-    display: none;
+#tree, #vial, #truck, #use, #recycle {
+    display: flex;
+    flex-direction: row-reverse;
 }
+
+h4 {
+    padding-left: 5px;
+}
+
+#popup1, #popup2, #popup3, #popup4, #popup5 {
+    display:none;
+  }
 /* --------------------header sektion slut --------------------------- */
 /* ----------------- Ressourcer sektion start ------------------------ */
 
 .ress-sektion {
     background-image: url(../images/Hero2.jpg);
-    width 100%;
+    width: 100%;
     height: 100vh;
     background-size: cover;
     position: relative;
