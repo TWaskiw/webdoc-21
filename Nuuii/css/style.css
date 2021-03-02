@@ -116,7 +116,7 @@ body {
 
 }
 /* -------------------- page navigation --------------------------- */
-.pagenavigation {
+.menu{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -124,25 +124,70 @@ body {
     margin-bottom: 10px;
 }
 
-.pagenavigation a {
-    padding: 20px;
-    background-color: #438C8C;
-    border-radius: 30px;
-    color: white;
+.menu a {
+    background-color: white;
+    border-radius: 50%;
+    color: #438C8C;
     margin: 12px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    
 }
 
+.menu ul {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    z-index: 100;
+    left: 0;
+    top: 0;
+    margin-top: 190px;
+    margin-left: 10px;
+}
+.menu li {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.menu a {
+    text-decoration: none;
+}
+
+#tree {
+    padding: 15px 17px 15px 17px;
+}
+
+#vial {
+    padding: 15px 17px 15px 17px;
+
+}
+
+#truck {
+    padding: 15px 15px 15px 15px;
+}
+
+#use {
+    padding: 15px 17px 15px 17px;
+
+}
+
+#recycle { 
+    padding: 15px 17px 15px 17px;
+
+}
+
+#popup {
+    display: none;
+}
 /* --------------------header sektion slut --------------------------- */
 /* ----------------- Ressourcer sektion start ------------------------ */
 
 .ress-sektion {
     background-image: url(../images/Hero2.jpg);
-    width: 100%;
+    width 100%;
     height: 100vh;
-    background-size: contain;
-    background-position: 100%
+    background-size: cover;
+    position: relative;
+    z-index: -2;
 }
 
 .ress-tekst {
@@ -179,6 +224,7 @@ body {
     margin-top: -400px;
 }
 
+
 /* --------------------ressourcer slut --------------------------- */
 /* --------------------Produktion start --------------------------- */
 
@@ -188,6 +234,8 @@ body {
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
+    z-index: -2;
 }
 
 
@@ -223,6 +271,8 @@ body {
     background-position-y: center;
     background-size: 85%;
     min-height: 100vh;
+    position: relative;
+    z-index: -2;
 }
 
 .distrib-hero {
@@ -249,6 +299,8 @@ padding-top: 25vh;
     width: 100%;
     height: 100vh;
     padding: 2.5rem 0;
+    position: relative;
+    z-index: -2;
 }
 
 .brug-hero {
@@ -291,6 +343,8 @@ padding-top: 25vh;
     background-color: beige;
     display: flex;
     flex-direction: column;
+    position: relative;
+    z-index: -2;
 }
 
 .bortskaffelse-hero {
