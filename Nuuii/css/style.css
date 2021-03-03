@@ -104,9 +104,9 @@ body {
 }
 
 .hero {
-    background-image: url(../images/Nuuii-hjul.JPG);
+    background-image: url(../images/Content.svg);
     width: 410px;
-    height: 400px;
+    height: 410px;
     background-size: cover;
 }
 
@@ -289,7 +289,7 @@ h4 {
     padding: 2rem 0;
     width: 100%;
     background-color: #f5fafd;
-    background-image: url(../images/dis.gif);
+    background-image: url(../images/dist.gif);
     background-repeat: no-repeat;
     background-position-y: center;
     background-size: 85%;
@@ -362,11 +362,31 @@ h4 {
 }
 
 
+#btn {
+    animation: shake 2s infinite;
+    animation-delay: 5.5s;
+  }
+  
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+
+
 /* --------------------Distribution slut --------------------------- */
 /* --------------------Brug sektion start --------------------------- */
 .brug-sektion {
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     padding: 2.5rem 0;
     position: relative;
     z-index: -2;
@@ -389,7 +409,7 @@ h4 {
 .ytvideo-tekst {
     font-family: 'Poppins', sans-serif;
     color: #438c8c;
-    width: 500px;
+    width: 95%;
 }
 
 .ytvideo {
