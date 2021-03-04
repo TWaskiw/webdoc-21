@@ -1,0 +1,560 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    z-index: -1;
+}
+
+.pagenavigation a {
+    text-decoration: none;
+}
+
+/* --------------------header sektion start ------------------------- */
+
+.logo {
+    width: 150px;
+    height: auto;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+.navbar {
+    width: 100%;
+    height: 110px;
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    position: relative;
+
+
+}
+
+.navigation {
+    color: black;
+    text-align: center;
+    font-size: 23px;
+}
+
+.navigation ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -90px;
+}
+
+
+.main-nav li {
+    float: left;
+}
+
+.main-nav li a {
+    display: flex;
+    justify-content: flex-end;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-top: 20px;
+    color: inherit;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    background-color: white;
+    padding-top: 35px;
+    font-size: 23px;
+    font-family: 'Poppins', sans-serif;
+    left: 0;
+}
+
+.dropdown-content {
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+}
+
+.haschildren:hover .dropdown {
+    display: block;
+}
+
+.haschildren {
+    position: relative;
+
+}
+
+
+.hero-container {
+    background-color: #f5fafd;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.hero-img {
+    width: 410px;
+    height: 410px;
+    
+}
+.header-main {
+    font-family: 'Poppins', sans-serif;
+    color: #438C8C;
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+
+/* -------------------- page navigation --------------------------- */
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.menu a {
+    background-color: white;
+    border-radius: 50%;
+    color: #438C8C;
+    margin: 12px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.menu ul {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    z-index: 100;
+    left: 0;
+    top: 0;
+    margin-top: 190px;
+    margin-left: 10px;
+}
+
+.menu li {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.menu a {
+    text-decoration: none;
+}
+
+#tree {
+    padding: 15px 17px 15px 17px;
+}
+
+#vial {
+    padding: 15px 17px 15px 17px;
+
+}
+
+#truck {
+    padding: 15px 15px 15px 15px;
+}
+
+#use {
+    padding: 15px 17px 15px 17px;
+
+}
+
+#recycle {
+    padding: 15px 17px 15px 17px;
+}
+
+#tree,
+#vial,
+#truck,
+#use,
+#recycle {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+h4 {
+    padding-left: 5px;
+}
+
+#popup1,
+#popup2,
+#popup3,
+#popup4,
+#popup5 {
+    display: none;
+}
+
+/* --------------------header sektion slut --------------------------- */
+/* ----------------- Ressourcer sektion start ------------------------ */
+
+.ress-sektion {
+    background-image: url(../images/Hero2.jpg);
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    z-index: -2;
+}
+
+.ress-tekst {
+    display: block;
+    margin-left: 100px;
+    padding: 30px;
+    font-family: 'Poppins', sans-serif;
+    width: 60%;
+    font-size: 18px;
+    color: #438C8C;
+}
+
+.ress-h1 {
+    font-family: 'Poppins', sans-serif;
+    color: #438C8C;
+    font-size: 60px;
+
+}
+
+.ress-h3 {
+    font-family: 'Poppins', sans-serif;
+    color: #438C8C;
+    width: 320px;
+    font-size: 13px;
+}
+
+.ress-p {
+    width: 60%;
+    margin-top: 20px;
+}
+
+.ress-p2 {
+    margin-top: 20px;
+    width: 60%;
+}
+
+.vandhane {
+    width: 800px;
+    float: right;
+    margin-top: -400px;
+}
+
+
+/* --------------------ressourcer slut --------------------------- */
+/* --------------------Produktion start --------------------------- */
+
+.prod-sektion {
+    background-image: url(../images/produktion.png);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: -2;
+}
+
+
+.prod-tekst {
+    padding: 5rem 5rem 0 130px;
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    color: #438C8C;
+    overflow-wrap: break-word;
+}
+
+.produktionpic {
+    bottom: 0;
+}
+
+.prod-p {
+    font-family: 'Poppins', sans-serif;
+    padding-top: 20px;
+    font-size: 18px;
+    margin-left: 40%;
+    margin-bottom: 30px;
+}
+
+.prod-p2 {
+    font-family: 'Poppins', sans-serif;
+    padding-top: 20px;
+    font-size: 18px;
+    margin-left: 40%;
+    margin-bottom: 30px;
+}
+
+/* --------------------Produktion slut --------------------------- */
+/* --------------------Distribution start --------------------------- */
+.distrib-sektion {
+    padding: 2rem 0;
+    width: 100%;
+    background-color: #f5fafd;
+    background-image: url(../images/dist.gif);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-size: 85%;
+    min-height: 100vh;
+    position: relative;
+    z-index: -2;
+}
+
+.distrib-hero {
+    margin-left: 130px;
+    padding-top: 25vh;
+}
+
+.distrib-tekst {
+    padding: 30px 0;
+    font-family: 'Poppins', sans-serif;
+    color: #438C8C;
+}
+
+.distrib-p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    width: 60%;
+    color: #438c8c;
+
+}
+
+
+
+#popup-fakta {
+    display: none;
+}
+
+.fakta-boks {
+    width: 250px;
+    height: 300px;
+    background-color: white;
+    color: #438c8c;
+    border: solid 2px black;
+    border-radius: 10%;
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 30px;
+    margin-right: 30px;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.fakta-indhold {
+    font-size: 19px;
+    text-align: center;
+
+}
+
+.fakta-cta {
+    position: absolute;
+    right: 0;
+    margin-right: 30px;
+    top: 330px;
+    width: 50vh;
+    background-color: transparent;
+    outline: none;
+    border: transparent;
+    font-size: 60px;
+    color: #438c8c;
+    cursor: pointer;
+}
+
+
+#btn {
+    animation: shake 2s infinite;
+    animation-delay: 5.5s;
+  }
+  
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+
+
+/* --------------------Distribution slut --------------------------- */
+/* --------------------Brug sektion start --------------------------- */
+.brug-sektion {
+    width: 100%;
+    min-height: 100vh;
+    padding: 2.5rem 0;
+    position: relative;
+    z-index: -2;
+    font-family: 'Poppins', sans-serif;
+    color: #438C8C;
+}
+
+.brug-hero {
+    display: flex;
+    flex-direction: column;
+    padding-top: 2.5rem;
+}
+
+.brug-h1 {
+    font-size: 60px;
+    margin-left: 130px;
+    margin-bottom: 30px;
+}
+
+.ytvideo-tekst {
+    font-family: 'Poppins', sans-serif;
+    color: #438c8c;
+    width: 95%;
+}
+
+.ytvideo {
+    margin-top: 30px;
+}
+
+.billede-tekst {
+    float: right;
+}
+
+.brug-article {
+    padding: 0 130px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.billede-knapper {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+    
+    
+}
+
+#button2020 {
+    background-color: #438C8C;
+    color: white;
+    padding: 20px 25px 20px 25px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 20%;
+    border: none;
+    font-size: 16px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: 600;
+}
+
+#button2050 {
+    background-color: #438C8C;
+    color: white;
+    padding: 20px 25px 20px 25px;
+    border-radius: 20%;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    opacity: 1;
+    transition: 0.3s;
+    font-weight: 600;
+}
+
+#button2020:hover {
+    opacity: 0.8;
+}
+#button2050:hover {
+    opacity: 0.8;
+}
+/* --------------------Brug sektion slut --------------------------- */
+
+/* -------------------Bortskaffelse sektion start -------------------- */
+
+.bortskaffelse-sektion {
+    width: 100%;
+    height: 100vh;
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: -2;
+}
+
+.bortskaffelse-hero {
+    padding-top: 2.5rem;
+    margin-left: 130px;
+    padding-bottom: 25px;
+}
+
+.bortskaffelse-content {
+    display: flex;
+    flex-direction: row;
+    bottom: 0;
+    width: 100%;
+}
+
+.bort-p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: #438c8c;
+    width: 50%;
+    padding-left: 130px;
+}
+
+.bort-paragraf {
+    margin-bottom:  30px;    
+}
+
+.plante-gif {
+    height: 80vh;
+    bottom: 0;
+}
+
+/* --------------------footer start --------------------------- */
+footer {
+    width: 100%;
+    height: 400px;
+    background-color: #afcfd0;
+    padding: 80px 100px 0px 30px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footercol {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.footer-title {
+    color: #eaeaea;
+    padding-bottom: 20px;
+}
+
+.footercol a {
+    text-decoration: none;
+    color: white;
+}
